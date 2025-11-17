@@ -1,0 +1,24 @@
+{
+  "name": "clanbot",
+  "version": "0.0.0.1",
+  "description": "Bot de Discord para la gestión de clanes... Competitividad y diversión aseguradas.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc -p tsconfig.json && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "Toxizity Toxicless",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.0",
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.3"
+  }
+}
